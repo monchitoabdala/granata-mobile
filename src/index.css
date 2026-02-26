@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary: #5A6CB3;
+  --primary-medium: #9CA7CC;
+  --primary-variant: #6B7BB3;
+  --secondary: #8E6D45;
+  --secondary-light: #C5A880;
+  --bg-light: #D5DBED;
+  --bg-white: #FFFFFF;
+  --text-main: #0F0F0F;
+  --text-secondary: #545454;
+  --grey-muted: #737373;
+  --grey-light: #D9D9D9;
+  --font-main: 'Outfit', sans-serif;
+
+  --transition-fast: 0.3s ease;
+  --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--bg-white);
+  color: var(--text-main);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color var(--transition-fast);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 32px;
+  font-weight: 500;
+  border-radius: 4px;
+  /* Slightly rounded, elegant */
+  transition: all var(--transition-fast);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-variant);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.btn-secondary {
+  border: 1px solid var(--text-main);
+  color: var(--text-main);
+}
+
+.btn-secondary:hover {
+  background-color: var(--text-main);
+  color: white;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 300;
+  /* Elegant thin */
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto 4rem;
+}
+
+/* Enriched Architectural Details */
+.app::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 20%;
+  width: 1px;
+  height: 100%;
+  background-color: rgba(15, 15, 15, 0.03);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.app::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  right: 20%;
+  width: 1px;
+  height: 100%;
+  background-color: rgba(15, 15, 15, 0.03);
+  z-index: -1;
+  pointer-events: none;
+}
+
+.section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 2px;
+  height: 40px;
+  background-color: var(--primary);
+  opacity: 0.3;
+}

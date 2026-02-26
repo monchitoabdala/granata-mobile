@@ -1,0 +1,218 @@
+.services-section {
+    background-color: #ffffff;
+    padding: 120px 0;
+    color: var(--text-main);
+}
+
+.services-section .container {
+    max-width: 1400px;
+}
+
+.services-header-alt {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 60px;
+}
+
+.services-badge {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.badge-line-alt {
+    width: 30px;
+    height: 1px;
+    background-color: var(--primary);
+}
+
+.services-main-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    letter-spacing: -1.5px;
+    color: var(--text-main);
+}
+
+.services-main-desc {
+    color: #666;
+    max-width: 500px;
+    line-height: 1.6;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.services-nav-alt {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-btn-alt {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0d1017;
+    transition: all 0.3s ease;
+    background: transparent;
+    cursor: pointer;
+}
+
+.nav-btn-alt:hover {
+    background-color: var(--text-main);
+    color: white;
+    border-color: var(--text-main);
+}
+
+.services-grid-alt {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.service-card-alt {
+    position: relative;
+    height: 500px;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #0d0f14;
+    /* Fallback */
+    cursor: pointer;
+}
+
+.service-image-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: transform 1.2s cubic-bezier(0.23, 1, 0.32, 1);
+    z-index: 1;
+}
+
+.service-card-alt:hover .service-image-bg {
+    transform: scale(1.1);
+}
+
+.service-card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 0.1) 40%,
+            rgba(0, 0, 0, 0.85) 100%);
+    z-index: 2;
+    transition: background 0.5s ease;
+}
+
+.service-card-alt:hover .service-card-overlay {
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 0.2) 40%,
+            rgba(0, 0, 0, 0.95) 100%);
+}
+
+.service-card-content-alt {
+    position: relative;
+    z-index: 3;
+    transition: transform 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.service-card-alt:hover .service-card-content-alt {
+    transform: translateY(-5px);
+}
+
+.service-card-title-alt {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: #ffffff;
+    letter-spacing: -0.5px;
+}
+
+.service-card-desc-alt {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    font-weight: 300;
+
+    /* 2 Lines limitation */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.service-card-link-alt {
+    color: var(--primary-medium);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    opacity: 0.85;
+}
+
+.service-card-alt:hover .service-card-link-alt {
+    opacity: 1;
+    gap: 15px;
+}
+
+.link-arrow-alt {
+    transition: transform 0.3s ease;
+}
+
+.service-card-alt:hover .link-arrow-alt {
+    transform: translateX(3px);
+}
+
+@media (max-width: 1200px) {
+    .services-grid-alt {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 992px) {
+    .services-main-title {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .services-header-alt {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .services-grid-alt {
+        grid-template-columns: 1fr;
+    }
+
+    .service-card-alt {
+        height: 400px;
+    }
+}

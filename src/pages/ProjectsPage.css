@@ -1,0 +1,262 @@
+/* Base projects page styles */
+.projects-page {
+    background-color: #ffffff;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.projects-page.fade-in {
+    opacity: 1;
+}
+
+
+/* Filter Bar V51 */
+.projects-filter-section-v51 {
+    padding: 160px 0 60px;
+    /* Increased top padding to account for missing hero and header offset */
+    background-color: #ffffff;
+    z-index: 100;
+}
+
+.projects-filter-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.projects-filter-header h2 {
+    font-size: 2.2rem;
+    color: var(--primary);
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.projects-filter-header p {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+}
+
+.filter-bar-v51 {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.filter-btn-v51 {
+    padding: 8px 20px;
+    border-radius: 4px;
+    border: 1px solid var(--grey-light);
+    background: var(--bg-light);
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--grey-muted);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-btn-v51:hover {
+    background-color: var(--grey-light);
+    color: #333;
+}
+
+.filter-btn-v51.active {
+    background-color: var(--text-main);
+    color: white;
+    border-color: var(--text-main);
+}
+
+/* FULL BLEED GALLERY (100% Width) */
+.projects-full-gallery {
+    width: 100%;
+    padding: 0 20px;
+    /* Slight padding for edges */
+    margin-bottom: 120px;
+}
+
+.masonry-gallery-full {
+    columns: 4;
+    column-gap: 15px;
+    width: 100%;
+}
+
+@media (max-width: 1400px) {
+    .masonry-gallery-full {
+        columns: 3;
+    }
+}
+
+@media (max-width: 992px) {
+    .masonry-gallery-full {
+        columns: 2;
+    }
+}
+
+@media (max-width: 600px) {
+    .masonry-gallery-full {
+        columns: 1;
+    }
+}
+
+.masonry-item-full {
+    break-inside: avoid;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f7f9ff;
+    position: relative;
+    cursor: pointer;
+}
+
+.masonry-image-wrapper-full {
+    position: relative;
+    width: 100%;
+}
+
+.masonry-image-wrapper-full img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 1.2s cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+.masonry-overlay-full {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 60%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    display: flex;
+    align-items: flex-end;
+    padding: 25px;
+}
+
+.masonry-item-full:hover .masonry-overlay-full {
+    opacity: 1;
+}
+
+.masonry-item-full:hover img {
+    transform: scale(1.05);
+}
+
+.masonry-info-full {
+    color: white;
+    transform: translateY(15px);
+    transition: transform 0.5s cubic-bezier(0.2, 0, 0.2, 1);
+}
+
+.masonry-item-full:hover .masonry-info-full {
+    transform: translateY(0);
+}
+
+.masonry-category-full {
+    font-size: 0.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--primary);
+    margin-bottom: 6px;
+    display: block;
+}
+
+.masonry-title-full {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+}
+
+/* FAQ Section V52 */
+.projects-faq-section {
+    padding: 120px 0;
+    background-color: #ffffff;
+}
+
+.faq-header-v52 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.faq-badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--primary);
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.faq-header-v52 h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.faq-grid-v52 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.faq-card-v52 h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #0d1017;
+}
+
+.faq-card-v52 p {
+    font-size: 1rem;
+    color: var(--grey-muted);
+    line-height: 1.6;
+}
+
+/* Footer CTA V51 */
+.projects-footer-cta-v51 {
+    padding: 100px 0;
+    background-color: var(--bg-light);
+    text-align: center;
+}
+
+.footer-cta-content h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+}
+
+.footer-cta-content p {
+    color: #667;
+    margin-bottom: 35px;
+}
+
+/* Animation */
+.fade-up {
+    animation: fadeUp 0.8s ease backwards;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .faq-grid-v52 {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-hero-v51 h1 {
+        font-size: 2.2rem;
+    }
+}

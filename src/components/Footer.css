@@ -1,0 +1,156 @@
+.footer {
+    background-color: var(--text-main);
+    /* Specific deep dark from brand palette */
+    padding: 80px 0 40px;
+    color: white;
+    position: relative;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 40px;
+    /* Reduced gap to fit 4 columns better */
+    margin-bottom: 60px;
+}
+
+.footer-col-main {
+    max-width: 400px;
+}
+
+.footer-logo-alt {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+.footer-logo-img {
+    height: 70px;
+    width: auto;
+    display: block;
+}
+
+.footer-desc-alt {
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 1.8;
+    font-size: 0.95rem;
+    margin-bottom: 30px;
+}
+
+.social-icons-circular {
+    display: flex;
+    gap: 15px;
+}
+
+.social-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.social-circle:hover {
+    background-color: white;
+    color: var(--text-main);
+    border-color: white;
+}
+
+.footer-col h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.footer-col ul li {
+    margin-bottom: 15px;
+}
+
+.footer-col ul li a {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: white;
+}
+
+.contact-list-alt li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+}
+
+.contact-icon {
+    color: var(--primary);
+    opacity: 0.8;
+}
+
+.footer-bottom-alt {
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: 40px;
+    text-align: center;
+}
+
+.footer-bottom-alt p {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 0.85rem;
+}
+
+/* WhatsApp Float */
+.whatsapp-float {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 25px rgba(37, 211, 102, 0.3);
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 35px rgba(37, 211, 102, 0.4);
+}
+
+@media (max-width: 992px) {
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;
+    }
+
+    .footer-col-main {
+        grid-column: span 2;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-col-main {
+        grid-column: span 1;
+    }
+}

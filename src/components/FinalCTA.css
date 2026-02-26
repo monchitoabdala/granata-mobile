@@ -1,0 +1,129 @@
+.final-cta {
+    background-color: var(--primary);
+    padding: 80px 0;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.cta-pattern {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    pointer-events: none;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.4) 1px, transparent 1px);
+    background-size: 30px 30px;
+}
+
+.cta-watermark {
+    position: absolute;
+    bottom: -20px;
+    left: 5%;
+    font-size: 12rem;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.03);
+    pointer-events: none;
+    line-height: 1;
+    white-space: nowrap;
+    z-index: 0;
+}
+
+.cta-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    text-align: left;
+    position: relative;
+    z-index: 1;
+}
+
+.cta-content-left {
+    max-width: 800px;
+}
+
+.cta-title-alt {
+    font-size: 3.2rem;
+    font-weight: 300;
+    line-height: 1.15;
+    margin-bottom: 0;
+    letter-spacing: -1.5px;
+}
+
+.cta-title-alt strong {
+    font-weight: 800;
+    /* Extra bold for impact as requested */
+    color: white;
+}
+
+.btn-whatsapp-premium {
+    position: relative;
+    color: var(--text-main);
+    padding: 20px 48px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-weight: 600;
+    font-size: 1.15rem;
+    text-transform: none;
+    letter-spacing: 0;
+    transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    background: white;
+    overflow: hidden;
+}
+
+.btn-whatsapp-premium:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.2);
+    background-color: var(--bg-light);
+}
+
+.wa-icon {
+    width: 24px;
+    height: 24px;
+    color: var(--primary);
+}
+
+@media (max-width: 1200px) {
+    .cta-title-alt {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .final-cta {
+        padding: 80px 0;
+    }
+
+    .cta-flex {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+
+    .cta-title-alt {
+        font-size: 2.4rem;
+    }
+
+    .cta-content-left {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta-separator {
+        margin: 0 auto 25px;
+    }
+
+    .cta-watermark {
+        font-size: 8rem;
+        bottom: 10px;
+    }
+}
