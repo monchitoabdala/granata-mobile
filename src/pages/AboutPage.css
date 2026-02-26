@@ -431,6 +431,10 @@
     gap: 20px;
 }
 
+.team-sub-photos+.team-sub-photos {
+    margin-top: 15px;
+}
+
 .team-sub-photos img {
     height: 200px;
 }

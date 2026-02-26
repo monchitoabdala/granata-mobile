@@ -171,11 +171,17 @@ const AboutPage: React.FC = () => {
                         {/* Team Photos Block */}
                         <div className="team-photos-block">
                             <div className="team-main-photo">
-                                <img src="/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/HISTORIA/FABRICA/IMG-20240914-WA0016.jpg" alt="Equipo de fábrica trabalhando" />
+                                <img src="/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/HISTORIA/FABRICA/IMG-20240914-WA0016.jpg" alt="Equipo de fábrica trabajando" />
                             </div>
                             <div className="team-sub-photos">
                                 <img src="/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/HISTORIA/FABRICA/IMG-20240914-WA0019.jpg" alt="Detalle de instalación" />
-                                <img src="/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/HISTORIA/FABRICA/WhatsApp Image 2024-09-15 at 13.47.51.jpeg" alt="Detalle de taller" />
+                                <img src="/src/assets/Portfolio GRANATA Mobile/Imágenes GRANATA Mobile/WhatsApp Image 2024-09-19 at 13.27.58.jpeg" alt="Detalle de taller 1" />
+                                <img src="/src/assets/Portfolio GRANATA Mobile/Imágenes GRANATA Mobile/WhatsApp Image 2024-09-19 at 13.28.04.jpeg" alt="Detalle de taller 2" />
+                            </div>
+                            <div className="team-sub-photos">
+                                <img src="/src/assets/Portfolio GRANATA Mobile/Imágenes GRANATA Mobile/WhatsApp Image 2024-09-19 at 13.28.22.jpeg" alt="Detalle de taller 3" />
+                                <img src="/src/assets/Portfolio GRANATA Mobile/Imágenes GRANATA Mobile/WhatsApp Image 2024-09-19 at 13.28.33.jpeg" alt="Detalle de taller 4" />
+                                <img src="/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/HISTORIA/FABRICA/WhatsApp Image 2024-09-15 at 13.47.51.jpeg" alt="Detalle de taller 5" />
                             </div>
                             <div className="team-caption">
                                 <p><strong>Manos expertas, dedicación total.</strong> Nuestro equipo de carpinteros dando forma a sus proyectos en nuestra planta.</p>
