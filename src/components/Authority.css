@@ -1,16 +1,23 @@
 .authority-section {
-    padding: 0;
-    margin-top: -100px;
-    /* Strong overlap with Hero */
     position: relative;
+    padding: 0;
+    background-color: #fafafa;
     z-index: 100;
 }
 
 .authority-card {
-    background-color: white;
-    padding: 60px 50px;
-    box-shadow: 0 40px 100px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
+    background-color: #ffffff;
+    padding: 60px 40px;
+    transform: translateY(-85px);
+    /* Moves card up independently into Hero space */
+    margin-bottom: -85px;
+    /* Pulls the section after Authority up to close the gap */
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.03);
+    /* Added a micro-shadow to make it pop over Hero */
+    border-radius: 20px;
+    border: 1px solid #e5e7eb;
+    position: relative;
+    z-index: 101;
 }
 
 .authority-grid {
@@ -24,9 +31,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* Centering items */
     text-align: center;
-    /* Centering text */
     gap: 25px;
     border-right: 1px solid rgba(15, 15, 15, 0.08);
 }
@@ -42,7 +47,6 @@
     align-items: center;
     justify-content: center;
     background-color: rgba(90, 108, 179, 0.05);
-    /* Soft primary tint adjusted to #5A6CB3 */
     border-radius: 50%;
     color: var(--primary);
     transition: all 0.3s ease;
@@ -76,12 +80,9 @@
 }
 
 @media (max-width: 992px) {
-    .authority-section {
-        margin-top: -60px;
-        padding: 0 20px;
-    }
-
     .authority-card {
+        transform: translateY(-40px);
+        margin-bottom: -40px;
         padding: 40px 30px;
     }
 

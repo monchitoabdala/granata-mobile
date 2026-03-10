@@ -1,17 +1,9 @@
 import Contact from '../components/Contact';
-import PageHero from '../components/PageHero';
 import './ContactPage.css';
-
 
 const ContactPage = () => {
     return (
         <main className="page-contact">
-            <PageHero
-                title="Hablemos de tu Proyecto"
-                subtitle="Contanos qué espacio querés transformar y te asesoramos sin compromiso. Nuestros expertos están listos para escucharte."
-            />
-
-
             <Contact />
 
             <section className="contact-faq">
@@ -38,7 +30,6 @@ const ContactPage = () => {
             </section>
 
             <section className="contact-map">
-                {/* Embedded Google Maps (Example Location: Rosario Area) */}
                 <iframe
                     title="Ubicación Showroom Rosario"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3347.123456789!2d-60.718!3d-32.946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6534567890123%3A0x1234567890abcdef!2sAv.%20Eva%20Per%C3%B3n%206932%2C%20S2000%20Rosario%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1700000000000!5m2!1ses-419!2sar"

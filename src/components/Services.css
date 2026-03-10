@@ -1,6 +1,7 @@
 .services-section {
-    background-color: #ffffff;
-    padding: 120px 0;
+    background-color: #fafafa;
+    padding: 100px 0 120px;
+    /* Adjusted padding to sync with the block above */
     color: var(--text-main);
 }
 
@@ -89,7 +90,6 @@
     flex-direction: column;
     justify-content: flex-end;
     background-color: #0d0f14;
-    /* Fallback */
     cursor: pointer;
 }
 
@@ -154,8 +154,6 @@
     line-height: 1.5;
     margin-bottom: 25px;
     font-weight: 300;
-
-    /* 2 Lines limitation */
     display: -webkit-box;
     -webkit-line-clamp: 2;
     line-clamp: 2;

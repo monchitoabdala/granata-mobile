@@ -3,7 +3,7 @@ import './Authority.css';
 
 const Authority: React.FC = () => {
     return (
-        <section className="section authority-section" id="authority">
+        <section className="authority-section" id="authority">
             <div className="container">
                 <div className="authority-card">
                     <div className="authority-grid">
@@ -15,8 +15,8 @@ const Authority: React.FC = () => {
                                 </svg>
                             </div>
                             <div className="authority-content">
-                                <h3 className="authority-title">Casi 50 Años de Trayectoria</h3>
-                                <p className="authority-desc">Desde 1977, diseñamos y fabricamos mobiliario de alta gama fusionando tradición artesanal con tecnología europea.</p>
+                                <h3 className="authority-title">Más de 60 Años de Trayectoria</h3>
+                                <p className="authority-desc">Desde 1960, diseñamos y fabricamos mobiliario de alta gama fusionando tradición artesanal con tecnología europea.</p>
                             </div>
                         </div>
                         <div className="authority-item">

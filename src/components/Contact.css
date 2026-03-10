@@ -1,14 +1,13 @@
 .contact-section-v4 {
-    background-color: var(--bg-light);
-    padding: 80px 0 120px;
+    background-color: #ffffff;
+    padding: 180px 0 100px;
 }
 
-/* Level 1: Cards */
+/* Level 2: Cards (Below) */
 .contact-cards-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
-    margin-bottom: 100px;
 }
 
 .contact-card {
@@ -34,8 +33,6 @@
 .card-icon {
     width: 60px;
     height: 60px;
-    background-color: var(--bg-light);
-    opacity: 0.8;
     border-radius: 14px;
     display: flex;
     align-items: center;
@@ -53,6 +50,7 @@
     font-size: 1.25rem;
     font-weight: 700;
     margin-bottom: 12px;
+    color: #000000;
 }
 
 .contact-card p {
@@ -80,12 +78,13 @@
     color: white;
 }
 
-/* Level 2: Main Content */
+/* Level 1: Main Content (Hero) */
 .contact-main-content {
     display: grid;
     grid-template-columns: 1fr 1.2fr;
     gap: 80px;
-    align-items: flex-start;
+    align-items: center;
+    margin-bottom: 160px;
 }
 
 .contact-value-block {
@@ -106,7 +105,7 @@
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: 25px;
-    color: var(--text-main);
+    color: #000000;
     letter-spacing: -1.5px;
 }
 
@@ -159,6 +158,7 @@
     background: white;
     padding: 60px;
     border-radius: 24px;
+    border: 1px solid var(--grey-light);
     box-shadow: 0 30px 60px rgba(0, 0, 0, 0.04);
 }
 
@@ -166,7 +166,7 @@
     font-size: 1.5rem;
     font-weight: 700;
     margin-bottom: 40px;
-    color: var(--text-main);
+    color: #000000;
 }
 
 .form-grid {
