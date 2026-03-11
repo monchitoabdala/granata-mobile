@@ -6,13 +6,11 @@
 }
 
 .services-section .container {
-    max-width: 1400px;
+    max-width: 1600px;
 }
 
-.services-header-alt {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+.services-header-centered {
+    text-align: center;
     margin-bottom: 60px;
 }
 
@@ -43,7 +41,8 @@
 
 .services-main-desc {
     color: #666;
-    max-width: 500px;
+    max-width: 600px;
+    margin: 0 auto;
     line-height: 1.6;
     font-size: 1.1rem;
     font-weight: 300;
@@ -77,7 +76,7 @@
 .services-grid-alt {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+    gap: 30px;
 }
 
 .service-card-alt {

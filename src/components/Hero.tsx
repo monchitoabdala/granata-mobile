@@ -6,6 +6,7 @@ const Hero: React.FC = () => {
         <section className="hero" id="hero">
             <div className="hero-overlay"></div>
             <div className="container hero-content">
+                <span className="hero-badge">Desde 1960</span>
                 <h1 className="hero-title">
                     Diseño y fabricación de <br />
                     muebles a medida

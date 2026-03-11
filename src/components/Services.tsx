@@ -32,25 +32,11 @@ const Services: React.FC = () => {
     return (
         <section className="section services-section" id="services">
             <div className="container">
-                <div className="services-header-alt">
-                    <div className="services-header-left">
-                        <h2 className="services-main-title">Soluciones de Autor</h2>
-                        <p className="services-main-desc">
-                            Fabricación integral con tecnología de punta y procesos artesanales. Mobiliario diseñado para durar.
-                        </p>
-                    </div>
-                    <div className="services-nav-alt">
-                        <button className="nav-btn-alt prev">
-                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2">
-                                <path d="M19 12H5M5 12L12 19M5 12L12 5" />
-                            </svg>
-                        </button>
-                        <button className="nav-btn-alt next">
-                            <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" strokeWidth="2">
-                                <path d="M5 12H19M19 12L12 5M19 12L12 19" />
-                            </svg>
-                        </button>
-                    </div>
+                <div className="services-header-centered">
+                    <h2 className="services-main-title">Soluciones de Autor</h2>
+                    <p className="services-main-desc">
+                        Fabricación integral con tecnología de punta y procesos artesanales. Mobiliario diseñado para durar.
+                    </p>
                 </div>
 
                 <div className="services-grid-alt">
