@@ -35,13 +35,13 @@ const BanosPage: React.FC = () => {
     ];
 
     const galleryImages = [
-        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/BAÑOS/IMG_3339.HEIC", alt: "Vanity Moderno", size: "large" },
+        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/BAÑOS/IMG_3837.JPG", alt: "Vanity Moderno", size: "large" },
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/BAÑOS/IMG_3837.JPG", alt: "Baño Premium" },
-        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/BAÑOS/IMG_8720.HEIC", alt: "Detalle de mesada" },
+        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/RENDERS/IMG-20250624-WA0062.jpg", alt: "Detalle de mesada" },
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/RENDERS/IMG-20250624-WA0062.jpg", alt: "Render Baño Minimalista" },
-        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/BAÑOS/IMG_8737.HEIC", alt: "Vanity en madera" },
+        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/RENDERS/IMG-20250624-WA0065.jpg", alt: "Vanity en madera" },
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/RENDERS/IMG-20250624-WA0065.jpg", alt: "Proyecto Baño" },
-        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/BAÑOS/IMG_3342.HEIC", alt: "Detalle herrajes baño" },
+        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/BAÑOS/IMG_3837.JPG", alt: "Detalle herrajes baño" },
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/RENDERS/IMG-20250624-WA0059.jpg", alt: "Vista cenital render" },
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/BAÑOS/IMG_3837.JPG", alt: "Baño completo" }
     ];
@@ -57,10 +57,9 @@ const BanosPage: React.FC = () => {
                 <div className="container">
                     <div className="intro-grid">
                         <div className="intro-image-container">
-                            <img src="/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/BAÑOS/IMG_8720.HEIC" alt="Vanity Premium Granata" />
+                            <img src="/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/RENDERS/IMG-20250624-WA0062.jpg" alt="Vanity Premium Granata" />
                         </div>
                         <div className="intro-content">
-                            <span className="badge-v51">RELAX & DISEÑO</span>
                             <h2>Sofisticación en ambientes húmedos</h2>
                             <p>
                                 El baño ha dejado de ser un ambiente puramente funcional para convertirse en un refugio personal. Nuestros vanities y muebles auxiliares se enfocan en la materialidad y la resistencia, utilizando procesos de laqueado y maderas seleccionadas que garantizan durabilidad inigualable.
@@ -86,7 +85,6 @@ const BanosPage: React.FC = () => {
             <section className="gallery-section">
                 <div className="container">
                     <div className="section-header-v51">
-                        <span className="badge-v51">PORTFOLIO</span>
                         <h2>Inspiración para tu baño</h2>
                     </div>
                     <div className="gallery-grid">

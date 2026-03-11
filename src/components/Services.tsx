@@ -34,10 +34,6 @@ const Services: React.FC = () => {
             <div className="container">
                 <div className="services-header-alt">
                     <div className="services-header-left">
-                        <div className="services-badge">
-                            <span className="badge-line-alt"></span>
-                            NUESTROS SERVICIOS
-                        </div>
                         <h2 className="services-main-title">Soluciones de Autor</h2>
                         <p className="services-main-desc">
                             Fabricación integral con tecnología de punta y procesos artesanales. Mobiliario diseñado para durar.

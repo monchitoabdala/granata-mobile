@@ -35,15 +35,15 @@ const PlacardsPage: React.FC = () => {
     ];
 
     const galleryImages = [
-        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/PLACARES Y VESTIDORES/IMG_1045.HEIC", alt: "Vestidor detalle", size: "large" },
+        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/PLACARES Y VESTIDORES/IMG_4378.JPG", alt: "Vestidor detalle", size: "large" },
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/PLACARES Y VESTIDORES/IMG_4395.JPG", alt: "Interior de diseño" },
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/RENDERS/IMG-20250330-WA0033.jpg", alt: "Render vestidor moderno" },
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/RENDERS/IMG-20250330-WA0021.jpg", alt: "Iluminación en placard" },
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/RENDERS/IMG-20250330-WA0034.jpg", alt: "Distribución inteligente" },
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/RENDERS/IMG-20250330-WA0036.jpg", alt: "Acabados premium" },
-        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/PLACARES Y VESTIDORES/IMG_3335.HEIC", alt: "Puertas placard" },
-        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/PLACARES Y VESTIDORES/IMG_1063.HEIC", alt: "Detalle herrajes" },
-        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/PLACARES Y VESTIDORES/IMG_1066.HEIC", alt: "Vestidor completo" }
+        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/RENDERS/IMG-20250330-WA0033.jpg", alt: "Puertas placard" },
+        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/PLACARES Y VESTIDORES/IMG_4378.JPG", alt: "Detalle herrajes" },
+        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/PLACARES Y VESTIDORES/IMG_4395.JPG", alt: "Vestidor completo" }
     ];
 
     return (
@@ -60,7 +60,6 @@ const PlacardsPage: React.FC = () => {
                             <img src="/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/PLACARES Y VESTIDORES/IMG_4378.JPG" alt="Vestidor Premium Granata" />
                         </div>
                         <div className="intro-content">
-                            <span className="badge-v51">DISEÑO INTELIGENTE</span>
                             <h2>Mucho más que un espacio de guardado</h2>
                             <p>
                                 Creemos que el orden es el principio del bienestar. Por eso, nuestros vestidores y placards no son solo muebles, son soluciones de ingeniería aplicadas al confort diario.
@@ -87,7 +86,6 @@ const PlacardsPage: React.FC = () => {
             <section className="gallery-section">
                 <div className="container">
                     <div className="section-header-v51">
-                        <span className="badge-v51">GALERÍA</span>
                         <h2>Inspiración para tu habitación</h2>
                     </div>
                     <div className="gallery-grid">

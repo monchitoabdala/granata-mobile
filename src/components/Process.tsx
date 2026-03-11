@@ -45,9 +45,6 @@ const Process: React.FC = () => {
         <section className="process-steps" id="proceso">
             <div className="process-container">
                 <div className="process-header">
-                    <div className="section-badge" style={{ color: 'var(--primary)', fontWeight: 'bold', letterSpacing: '3px', fontSize: '0.75rem', textTransform: 'uppercase' }}>
-                        02 | METODOLOGÍA
-                    </div>
                     <h2>El Proceso Integral</h2>
                     <p>
                         Un método de trabajo perfeccionado durante seis décadas para transformar tus ideas en espacios de diseño.

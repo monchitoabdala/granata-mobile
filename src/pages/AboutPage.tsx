@@ -61,7 +61,6 @@ const AboutPage: React.FC = () => {
             <section className="values-section">
                 <div className="container">
                     <div className="section-header-v51">
-                        <span className="badge-v51">LO QUE NOS MUEVE</span>
                         <h2>Nuestros Valores</h2>
                     </div>
                     <div className="values-grid">
@@ -100,7 +99,6 @@ const AboutPage: React.FC = () => {
                             </div>
                         </div>
                         <div className="factory-text-block">
-                            <span className="badge-v51">CAPACIDAD PRODUCTIVA</span>
                             <h2>Fábrica propia y Showroom en Rosario</h2>
                             <p>
                                 Con base en la ciudad de Rosario, contamos con <strong>fábrica propia y un local de exposición</strong> donde permitimos al cliente conocer nuestros materiales, terminaciones y modelos.
@@ -138,7 +136,6 @@ const AboutPage: React.FC = () => {
                             </div>
                         </div>
                         <div className="factory-text-block">
-                            <span className="badge-v51">COMPROMISO</span>
                             <h2>Calidad Garantizada</h2>
                             <p>
                                 La combinación de experiencia, tecnología y mano de obra especializada nos permite ofrecer soluciones funcionales, estéticas y duraderas.

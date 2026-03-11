@@ -58,10 +58,6 @@ const Projects: React.FC = () => {
         <section className="section gallery-section" id="projects">
             <div className="container">
                 <div className="gallery-header-centered">
-                    <div className="gallery-badge-centered">
-                        <span className="badge-dot"></span>
-                        PROYECTOS RECIENTES
-                    </div>
                     <h2 className="gallery-main-title">Galería de Autor</h2>
                     <p className="gallery-main-desc-centered">
                         Una mirada cercana a nuestras últimas ejecuciones. Fotografía pura, diseño honesto y ejecución impecable.

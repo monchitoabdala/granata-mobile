@@ -41,8 +41,8 @@ const HogarPage: React.FC = () => {
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/COLECCIÓN HOGAR/fdbe200f-b021-496b-b93e-763cd9410a90.jpg", alt: "Escritorio Home Office" },
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/COLECCIÓN HOGAR/IMG_20200708_181437_349.jpg", alt: "Vajillero de diseño" },
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/COLECCIÓN HOGAR/IMG_20180616_212723336.jpg", alt: "Detalle mueble social" },
-        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/COLECCIÓN HOGAR/IMG_9780.HEIC", alt: "Mesa de comedor" },
-        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/COLECCIÓN HOGAR/IMG_2944.HEIC", alt: "Dormitorio integral" },
+        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/COLECCIÓN HOGAR/IMG_20200519_181903_161.jpg", alt: "Mesa de comedor" },
+        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/COLECCIÓN HOGAR/fdbe200f-b021-496b-b93e-763cd9410a90.jpg", alt: "Dormitorio integral" },
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/COLECCIÓN HOGAR/IMG_20150929_155626781.jpg", alt: "Detalle carpintería" }
     ];
 
@@ -60,7 +60,6 @@ const HogarPage: React.FC = () => {
                             <img src="/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/PRODUCTOS/COLECCIÓN HOGAR/fdbe200f-b021-496b-b93e-763cd9410a90(1).jpg" alt="Living Premium Granata" />
                         </div>
                         <div className="intro-content">
-                            <span className="badge-v51">EQUIPAMIENTO INTEGRAL</span>
                             <h2>Mobiliario que define tu estilo de vida</h2>
                             <p>
                                 Nuestra Colección Hogar abarca desde el living hasta el estudio, ofreciendo soluciones a medida que unifican el lenguaje arquitectónico de tu casa. Cada pieza es fabricada con la misma rigurosidad técnica que nuestras cocinas, asegurando coherencia estética y durabilidad en todo tu hogar.
@@ -86,7 +85,6 @@ const HogarPage: React.FC = () => {
             <section className="gallery-section">
                 <div className="container">
                     <div className="section-header-v51">
-                        <span className="badge-v51">INSPIRACIÓN</span>
                         <h2>Espacios que habitamos</h2>
                     </div>
                     <div className="gallery-grid">

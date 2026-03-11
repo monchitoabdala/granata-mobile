@@ -65,7 +65,6 @@ const HowWeWorkPage: React.FC = () => {
             <section className="before-after-section">
                 <div className="container">
                     <div className="section-header-v51">
-                        <span className="badge-v51">RENDER VS REALIDAD</span>
                         <h2>De la idea a la ejecución</h2>
                         <p className="section-desc">Utilizamos tecnología de diseño 3D para que pueda visualizar su espacio antes de fabricarlo.</p>
                     </div>
@@ -100,7 +99,6 @@ const HowWeWorkPage: React.FC = () => {
             <section className="expanded-process">
                 <div className="container">
                     <div className="section-header-v51">
-                        <span className="badge-v51">METODOLOGÍA</span>
                         <h2>El Proceso Integral</h2>
                     </div>
 

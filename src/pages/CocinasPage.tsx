@@ -35,11 +35,11 @@ const CocinasPage: React.FC = () => {
     ];
 
     const galleryImages = [
-        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/MODELOS/MILENIUM/IMG_3110.HEIC", alt: "Cocina Milenium Blanca", size: "large" },
+        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/MODELOS/MILENIUM/af34cc0c-3db2-4155-bfb8-814d4ff89e3b.jpg", alt: "Cocina Milenium Blanca", size: "large" },
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/RENDERS/IMG-20250127-WA0071.jpg", alt: "Render Cocina Moderna" },
-        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/MODELOS/MILENIUM/IMG_3114.HEIC", alt: "Detalle de alacenas" },
+        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/MODELOS/MILENIUM/F7A382A8-1AE0-49C3-B44C-CBDA05C293F7.JPEG", alt: "Detalle de alacenas" },
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/RENDERS/IMG-20250128-WA0046.jpg", alt: "Isla desayunador" },
-        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/MODELOS/ALPINE/IMG_1908.HEIC", alt: "Cocina Alpine Madera" },
+        { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/MODELOS/ALPINE/ANGEL 010.jpg", alt: "Cocina Alpine Madera" },
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/RENDERS/IMG-20240722-WA0227.jpg", alt: "Proyecto integral" },
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/MODELOS/MILENIUM/IMG_3132.HEIC", alt: "Iluminación bajo mesada" },
         { src: "/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/RENDERS/IMG-20250314-WA0060.jpg", alt: "Detalle de herrajes" },
@@ -57,10 +57,9 @@ const CocinasPage: React.FC = () => {
                 <div className="container">
                     <div className="intro-grid">
                         <div className="intro-image-container">
-                            <img src="/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/MODELOS/MILENIUM/IMG_3127.HEIC" alt="Cocina Premium Granata" />
+                            <img src="/src/assets/Portfolio GRANATA Mobile/Imágenes Página WEB/MODELOS/MILENIUM/F7A382A8-1AE0-49C3-B44C-CBDA05C293F7.JPEG" alt="Cocina Premium Granata" />
                         </div>
                         <div className="intro-content">
-                            <span className="badge-v51">ALTA GAMA</span>
                             <h2>Innovación en cada detalle culinario</h2>
                             <p>
                                 En Granata, entendemos la cocina como un espacio de encuentro y creación. Nuestros diseños combinan la calidez de los materiales nobles con la precisión de la tecnología europea, logrando ambientes que son tan placenteros de ver como de usar.
@@ -86,7 +85,6 @@ const CocinasPage: React.FC = () => {
             <section className="gallery-section">
                 <div className="container">
                     <div className="section-header-v51">
-                        <span className="badge-v51">PROYECTOS</span>
                         <h2>Nuestras últimas cocinas</h2>
                     </div>
                     <div className="gallery-grid">

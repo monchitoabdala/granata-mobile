@@ -15,7 +15,6 @@ const PremiumQuality: React.FC = () => {
                 {/* Left Side: Content (Blue) */}
                 <div className="quality-content-side">
                     <div className="quality-content-wrapper">
-                        <div className="section-badge-white">01 | FILOSOFÍA</div>
                         <h2 className="premium-title">Diferenciales de Calidad</h2>
                         <p className="premium-subtitle">
                             Garantizamos durabilidad y resistencia en cada desarrollo.
